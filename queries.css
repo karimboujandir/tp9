@@ -1,0 +1,63 @@
+.TxtVariable {
+    display: none;
+}
+
+@media only screen and (min-width:320px) and (max-width:640px){
+    #p1{
+        background-color: rgb(91, 75, 241);
+    } 
+    #txt1 {
+        color:rgb(91, 75, 241) ;
+        display: block;
+    }
+}
+
+@media only screen and (min-width:800px)    {
+    #p2 {
+        background-color: rgb(91, 75, 241);
+    }
+    #txt2 {
+        color:rgb(91, 75, 241) ;
+        display: block;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1280px){
+    #p3 {
+        background-color: rgb(91, 75, 241);
+    }
+    #txt3 {
+        color:rgb(91, 75, 241) ;
+        display: block;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    #p4 {
+    background-color: rgb(91, 75, 241);
+    }  
+    #txt4 {
+        color:rgb(91, 75, 241) ;
+        display: block;
+    }
+}
+
+@media all and (orientation: landscape) {
+    #p6 {
+        background-color: rgb(91, 75, 241);    
+    }
+    #txt6 {
+        color:rgb(91, 75, 241) ;
+        display: block;
+    }
+}
+
+@media all and (orientation: portrait) {
+    #p5 {
+        background-color: rgb(91, 75, 241);    
+    }
+    #txt5 {
+        color:rgb(91, 75, 241) ;
+        display: block;
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./queries.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaQueries</title>
+</head>
+<body>
+    <div class="corps">
+        <h1>Utilisation Des media Queries</h1>
+            <p>Regle(s) appliquée</p>
+            <div class="toutVar">
+                <div class="TxtVariable"id="txt1">
+                    @media only screen and (max-width:640px)
+                </div>
+                <div class="TxtVariable"id="txt2">
+                    @media only screen and (min-width:800px)
+                </div>
+                <div class="TxtVariable"id="txt3">
+                    @media only screen and (min-width:1024px) and (max-width:1280px)
+                </div>
+                <div class="TxtVariable"id="txt4">
+                    @media only screen and (max-width:480px)
+                </div>
+                <div class="TxtVariable"id="txt5">
+                    @media all and (orientation: portrait)
+                </div>
+                <div class="TxtVariable"id="txt6">
+                    @media all and (orientation: landscape)
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="individual" id="p1">
+                    <p>La page est afficher avec une largeur < 640px</p>
+            </div>
+            <div class="individual" id="p2">
+                <p>La page est afficher avec une largeur > 800px</p>
+            </div>
+            <div class="individual" id="p3">
+                <p>La page est afficher avec une largeur > 1024px  et < 1280px</p>
+            </div>
+            <div class="individual" id="p4">
+                <p>La page est afficher sur une peripherique de maximum 480px </p>
+            </div>   
+            <div class="individual" id="p5">
+                <p>La page est afficher en portrait</p>
+            </div>
+            <div class="individual" id="p6">
+                <p>la page est afficher en paysage</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
